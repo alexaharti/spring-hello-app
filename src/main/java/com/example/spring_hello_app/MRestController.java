@@ -20,7 +20,7 @@ public class MRestController {
 
     @GetMapping("/info")
     public String getAppInfo() {
-        return "Aplicatie Spring Boot demo cu endpointuri simple si autentificare de baza.";
+        return "Aplicatie Spring Boot cu autentificare de baza si endpointurile: '/info', '/students', '/hello'.";
     }
 
 }
